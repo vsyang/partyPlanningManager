@@ -11,12 +11,12 @@ Content-Type: application/json
 {
     "name": "Knife Set",
     "price": "879.95",
-    "department": "Home Decore",
-    "brand": "Bali",
+    "department": "Kitchenware",
+    "brand": "Henckels",
     "quantity": "1",
-    "color": "White",
+    "color": "Stainless Steel",
     "size": "Medium",
-    "store": "Home Depot"
+    "store": "Crate & Barrel"
 }
 
 ### Update an existing gift by ID
