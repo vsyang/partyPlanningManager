@@ -12,7 +12,17 @@ const doc = {
  * schemes: ['https'] -vy
  *******************************************/
     host: 'localhost:3000',
-    schemes: ['http']
+    schemes: ['http'],
+    tags: [
+    {
+      name: 'Gifts',
+      description: 'Endpoints for managing gifts'
+    },
+    {
+      name: 'Food',
+      description: 'Endpoints for managing dishes/food'
+    }
+  ]
 };
 
 const outputFile = './swagger.json';
