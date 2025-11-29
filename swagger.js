@@ -12,9 +12,9 @@ const doc = {
  * update the swagger.json file on render.com -vy
  *******************************************/
   host: production
-    ? 'https://party-planning-manager.onrender.com'
+    ? 'party-planning-manager.onrender.com'
     : 'localhost:3000',
-    schemes: production ? ['https']: ['http' ],
+    schemes: production ? ['https']: ['http'],
     tags: [
     {
       name: 'Gifts',
