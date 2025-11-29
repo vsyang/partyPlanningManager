@@ -5,7 +5,7 @@
     "description": "A simple API to help manage holiday parties",
     "version": "1.0.0"
   },
-  "host": "party-planning-manager.onrender.com",
+  "host": [ "party-planning-manager.onrender.com" , "localhost:3000"],
   "basePath": "/",
   "tags": [
     {
@@ -18,7 +18,7 @@
     }
   ],
   "schemes": [
-    "https"
+    ["https", "http"]
   ],
   "paths": {
     "/": {
