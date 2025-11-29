@@ -5,7 +5,7 @@
     "description": "A simple API to help manage holiday parties",
     "version": "1.0.0"
   },
-  "host": "party-planning-manager.onrender.com/api-docs/",
+  "host": "party-planning-manager.onrender.com",
   "basePath": "/",
   "tags": [
     {
